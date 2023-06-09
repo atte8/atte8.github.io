@@ -1,5 +1,5 @@
 let tg = window.Telegram.WebApp;
-
+console.log("JS файл успешно подключен.");
 tg.expand()
 
 tg.MainButton.textColor = "#FFFFFF";
