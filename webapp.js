@@ -1,5 +1,4 @@
 let tg = window.Telegram.WebApp;
-console.log("JS файл успешно подключен.");
 tg.expand()
 
 tg.MainButton.textColor = "#FFFFFF";
@@ -13,6 +12,8 @@ let btn3 = document.getElementById("Btn3")
 let btn4 = document.getElementById("Btn4")
 let btn5 = document.getElementById("Btn5")
 let btn6 = document.getElementById("Btn6")
+
+console.log("JS файл успешно подключен.");
 
 btn1.addEventListener("click",function()
 {
