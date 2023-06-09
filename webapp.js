@@ -16,54 +16,54 @@ let btn6 = document.getElementById("Btn6")
 
 btn1.addEventListener("click",function()
 {
- if (tg.MainButton.isVisibale)
+ if (tg.MainButton.isVisible)
   {
    tg.MainButton.hide();
   }
   else
   {
    item = "1"
-   tg.MainButtin.show();
+   tg.MainButton.show();
   }
 });
 
 
 btn2.addEventListener("click",function()
 {
- if (tg.MainButton.isVisibale)
+ if (tg.MainButton.isVisible)
   {
    tg.MainButton.hide();
   }
   else
   {
    item = "2"
-   tg.MainButtin.show();
+   tg.MainButton.show();
   }
 });
 
 btn3.addEventListener("click",function()
 {
- if (tg.MainButton.isVisibale)
+ if (tg.MainButton.isVisible)
   {
    tg.MainButton.hide();
   }
   else
   {
    item = "3"
-   tg.MainButtin.show();
+   tg.MainButton.show();
   }
 });
 
 btn3.addEventListener("click",function()
 {
- if (tg.MainButton.isVisibale)
+ if (tg.MainButton.isVisible)
   {
    tg.MainButton.hide();
   }
   else
   {
    item = "3"
-   tg.MainButtin.show();
+   tg.MainButton.show();
   }
 });
 
