@@ -1,4 +1,5 @@
 let tg = window.Telegram.WebApp;
+
 tg.expand()
 
 tg.MainButton.textColor = "#FFFFFF";
@@ -13,8 +14,6 @@ let btn4 = document.getElementById("Btn4")
 let btn5 = document.getElementById("Btn5")
 let btn6 = document.getElementById("Btn6")
 
-console.log("JS файл успешно подключен.");
-
 btn1.addEventListener("click",function()
 {
  if (tg.MainButton.isVisible)
@@ -25,7 +24,6 @@ btn1.addEventListener("click",function()
   {
    item = "1"
    tg.MainButton.show();
-   console.log("Кнопка 1 нажата");
   }
 });
 
