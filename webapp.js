@@ -23,7 +23,7 @@ btn1.addEventListener("click",function()
   else
   {
    item = "1"
-   tg.MainButton.show();
+  // tg.MainButton.show();
   }
 });
 
