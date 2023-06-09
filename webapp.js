@@ -21,6 +21,7 @@ btn1.addEventListener("click",function(){
   }
   else
   {
+   tg.MainButton.setText("товар1!");
    item = "1"
    tg.MainButton.show();
   }
@@ -36,6 +37,7 @@ btn2.addEventListener("click",function()
   else
   {
    item = "2"
+   tg.MainButton.setText("товар2!");
    tg.MainButton.show();
   }
 });
@@ -49,6 +51,7 @@ btn3.addEventListener("click",function()
   else
   {
    item = "3"
+   tg.MainButton.setText("товар3!");
    tg.MainButton.show();
   }
 });
@@ -61,7 +64,8 @@ btn3.addEventListener("click",function()
   }
   else
   {
-   item = "3"
+   item = "4"
+   tg.MainButton.setText("товар4!");
    tg.MainButton.show();
   }
 });
